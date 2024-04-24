@@ -101,7 +101,7 @@ class MainActivity : AppCompatActivity() {
 
     lateinit var pauseButton: Button
 
-
+// var pauseButton: Button = findViewById(R.id.pauseButton)
     private var movingLeft = false
     private var movingRight = false
     private var movingUp = false
@@ -363,9 +363,10 @@ class MainActivity : AppCompatActivity() {
 //                    movingDown = true
 //                }
 
-                    handler.postDelayed(this, 100)
+
 
                 }
+                handler.postDelayed(this, 100)
             }
 
         }
